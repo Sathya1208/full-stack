@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GOOGLE REGISTRATION FORM</title>
+    <link rel="stylesheet" href="form.css">
+    <script src="validextenal.js"></script>
+    </head>
+<body>
+    <section class="grid-container">
+        <img src="Images\googgle.png" width="180px">
+        <br>
+    <section class="grid-item">
+        <form name="valid1" method="post" action="http://www.javatpoint.com/javascriptpages/valid.jsp" onsubmit="return validateform()">
+            <div Create a Google Account></div>
+            <span>Enter your child's account information</span>
+            <br>
+            <input type="text" name="firstname" placeholder="First name">
+            <input type="text" name="lastname" placeholder="Last name">
+            <br>
+            <input type="text" name="username" placeholder="User name">
+            <br>
+            <span>You can use letters,numbers & periods</span>
+            <br>
+            <input type="text" name="phonenumber" placeholder="Phone number">
+            <br>
+            <input type="text" name="e" placeholder="enter e-mail id">
+            <br>
+            <input type="password" name="password" oninput="strengthValidate()" placeholder="Password">
+            <input type="password" name="confirm"  placeholder="Confirm">
+            <p id="strength"></p>
+            <span>Use 8 or more characters with a mix of letters,numbers & symbols</span>
+            <br>
+            <input type="checkbox">
+            <span>Show password</span>
+            <br>
+            <button>Sign in instead</button>
+            <input id="next" type="submit" value="next">
+        </form>
+    </section>
+    <section class="grid-item">
+        <img src="Images\g12.svg" width="250">
+    </section>
+    </section>
+    <footer>
+        <form>
+            <label>
+                Language
+            </label>
+            <select>
+                <option value="English">English</option>
+                <option value="French">French</option>
+                <option value="Tamil">Tamil</option>
+
+            </select>
+        </form>
+    </footer>
+    
+</body>
+</html>

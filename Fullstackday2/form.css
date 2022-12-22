@@ -1,0 +1,31 @@
+*{
+    margin: 10px;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto;
+    align-content: center;
+    margin-top: 100px;
+    margin-bottom: auto;
+    margin-left: 100px;
+    margin-right: 100px;
+    border: 20px black;
+    height: auto;
+     width: max-content;
+}
+.grid-item{
+    background-color: white;
+    padding: auto;
+}
+button{
+    background-color: cornflowerblue;
+    color: white;
+    border-color:cornflowerblue;
+    border-radius:20px;
+}
+footer{
+    margin-left: 100px;
+}
+footer span{
+    float: right; 
+}
